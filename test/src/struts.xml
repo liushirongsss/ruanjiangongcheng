@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" extends="struts-default" namespace="/">
+		<action name="loginAction" class="com.ascent.action.LoginAction">
+			<result name="success">/findall.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+		<action name="registerAction" class="com.ascent.action.RegisterAction">
+			<result name="success">/login.jsp</result>
+			<result name="error">/error2.jsp</result>
+		</action>
+		<action name="productAction" class="com.ascent.action.ProductAction">
+			<result name="success">/findall.jsp</result>
+			<result name="error">/error3.jsp</result>
+		</action>
+		<action name="productAction2" class="com.ascent.action.ProductAction" method="updateProduct">
+			<result name="success">/findall.jsp</result>
+		</action>
+		<action name="productAction3" class="com.ascent.action.ProductAction" method="deleteProduct">
+			<result name="success">/findall.jsp</result>
+		</action>
+		<action name="productAction4" class="com.ascent.action.ProductAction" method="findAll">
+			<result name="findAll">/findall.jsp</result>
+		</action>
+		<action name="productAction5" class="com.ascent.action.ProductAction" method="findAll2">
+			<result name="findAll">/findall.jsp</result>
+		</action>
+		<action name="productAction6" class="com.ascent.action.ProductAction" method="getID">
+			<result name="success">/welcome.jsp</result>
+		</action>
+		<action name="productAction7" class="com.ascent.action.ProductAction" method="getALL">
+			<result name="success">/error.jsp</result>
+		</action>
+	</package>
+</struts>    

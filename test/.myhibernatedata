@@ -1,0 +1,20 @@
+#MyEclipse Hibernate Properties
+#Wed Nov 09 00:56:23 CST 2022
+genBasicCompId=false
+sessionFactoryName=com.ascent.util.HibernateSessionFactory
+profile=
+daoSFId=
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=native
+genVersionTag=false
+sessionFactoryId=sessionFactory
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=
+configFile=/test/src/applicationContext.xml
+createConfigFile=true
